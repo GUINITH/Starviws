@@ -1,0 +1,102 @@
+#Contato{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000bf;
+    padding: 10px;
+}
+.contato-container, .contato-content{
+    margin-top: 2rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+    flex-wrap: wrap;
+}
+.contato-text{
+   width: 70%;
+   height: 100%;
+   color: white;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 3rem;
+   padding: 10px;
+}
+.contato-text h1{
+    font-size: 1.4vw;
+    letter-spacing: 15px;
+    font-weight: 300;
+}
+.contato-text h2{
+    font-size: 3vw;
+    letter-spacing: 1px;
+}
+.contato-icon-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: justify;
+}
+.contato-item{
+    display: flex;
+    gap: 0.5rem;
+    padding: 5px;
+}
+.icon i{
+    border:solid 1px white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.icon-description p{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.form-content{
+    width: 40vw;
+    height: 72vh;
+    padding: 3rem 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #00000057;
+    box-sizing: border-box;
+    border-width: inherit;
+    line-height: 1.5rem;
+    }
+    #name,#telefone,#Mensagem,#Assunto,#Email{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #1A1E23;
+    border-radius: 0px 0px 0px 0px;
+    resize: vertical;
+    overflow-y: hidden;
+    color: aliceblue;
+}
+#Mensagem,#Assunto,#Email{
+    width: 29vw;
+    padding: 15px;
+}
+#name,#telefone{
+ width: 14vw;
+margin: 8px;
+padding: 15px;
+}
+#btn-form{
+    padding: 1vw;
+    width: 30vw;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color:#f1f1f1f1;
+    cursor:pointer;
+}
+#btn-form:hover{
+    background-color: gray;
+    color: #f1f1f1f1;
+    transition: all 500ms ease-in-out;
+}

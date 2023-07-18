@@ -1,0 +1,117 @@
+
+#Serviços{
+    padding-top: 2rem;
+    width: 100vw;
+    height: 100vh;
+}
+.servicos-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50rem;
+}
+.serv-container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+.serv-container .serv-text,
+.serv-container .serv-img{
+    padding-top: 5rem;
+    width: 40%;
+    padding: 0 40px;
+}
+.serv-text{
+    line-height: 2.5rem;
+    text-align: justify;
+}
+.serv-text h1{
+    font-size: 1vw;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+.serv-text h2, .serv-plano h3,.serv-plano h1{
+    font-size: 3vw;
+    font-weight: 300;
+    letter-spacing: 15px;
+    margin-bottom: 1rem;
+}
+.serv-img, .serv-img img{
+    width: 30vw;
+    height: 70vh;
+}
+.serv-plano{
+    padding-top: 5rem;
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+}
+ .plano-conteiner, .plano-itens{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    padding: 8rem;
+}
+.plano-prata, .plano-gold, .plano-platinum{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(182, 179, 179, 0.763);
+    line-height: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.plano-prata:hover, .plano-gold:hover, .plano-platinum:hover{
+    transition: all ease-in-out 800ms;
+    background-color: rgba(0, 0, 0, 0.659);
+    color: aliceblue;
+}
+.pl-contrate{
+    margin-top: 0.5rem;
+    padding: 1vw;
+    font-size: 1vw;
+    border-radius: 15px;
+    letter-spacing: 5px;
+    background-color: rgba(240, 248, 255, 0.575);
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 1px;
+}
+.pl-contrate:hover{
+    background-color: aliceblue;
+    transition: all ease-in-out 500ms;
+    transform: scale(1.02)
+}
+
+.plano-prata h4, .plano-gold h4, .plano-platinum h4{
+    font-size: 1.4vw;
+}
+.plano-prata strong, .plano-gold strong, .plano-platinum strong{
+    font-size: 2vw;
+}
+.plano-prata h6, .plano-gold h6, .plano-platinum h6{
+    font-size: 1.1vw;
+}
+.plano-prata span, .plano-gold span, .plano-platinum span{
+    font-size: 0.90vw;
+}
+.plano-prata p, .plano-gold p, .plano-platinum p{
+    font-size: 1.5vw;
+    margin-bottom: 1rem;
+}
+
+
+

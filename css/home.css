@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+    height: 500vh;
+}
+body{
+    overflow-x: hidden;
+}
+#Home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/2608515/pexels-photo-2608515.jpeg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-container, .home-content{
+    padding: 3rem;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: left;
+}
+.home-text{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 4.5rem;
+    padding: 20px;
+}
+
+.home-text h4,.home-text p, .home-text span{
+    font-size: 4vw;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    color: rgb(252, 250, 250);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-home{
+    display: block;
+    font-size: 12px;
+    width: 24vw;
+    padding: 18px;
+    color: rgb(238, 232, 232);
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 2px gray;
+    cursor: pointer;
+    letter-spacing: 6px;
+}
+.btn-home i{
+    font-size: 1.3vw;
+}
+.btn-home:hover{
+    background-color: gray;
+    transition: all ease-in-out 0.5s;
+    color: #f1f1f1;
+}
+
