@@ -27,7 +27,6 @@
     padding: 0 40px;
 }
 .serv-text{
-    line-height: 2.5rem;
     text-align: justify;
 }
 .serv-text h1{
@@ -40,6 +39,9 @@
     font-weight: 300;
     letter-spacing: 15px;
     margin-bottom: 1rem;
+}
+.serv-text p{
+    font-size: 1.3vw;
 }
 .serv-img, .serv-img img{
     width: 30vw;
