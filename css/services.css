@@ -115,5 +115,10 @@
     margin-bottom: 1rem;
 }
 
+@media (min-width:320px) and (max-width:499px) {
+    #Serviços{
+        display: none;
+    }
+}
 
 

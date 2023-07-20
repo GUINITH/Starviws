@@ -41,3 +41,8 @@ width: 18vw;
 height: 22vh;
 padding: 0.1rem;
 }
+@media (min-width:320px) and (max-width:499px) {
+    #Projetos{
+        display: none;
+    }
+}

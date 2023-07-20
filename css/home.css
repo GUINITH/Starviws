@@ -6,7 +6,7 @@
 }
 html{
     scroll-behavior: smooth;
-    height: 100vh;
+    height: 500vh;
 }
 body{
     overflow-x: hidden;
@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     background-image: url("https://images.pexels.com/photos/2608515/pexels-photo-2608515.jpeg");
+    background-size: 100vw;
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,5 +64,11 @@ body{
     background-color: gray;
     transition: all ease-in-out 0.5s;
     color: #f1f1f1;
+}
+@media (min-width:320px) and (max-width:400px) {
+    .home-text{
+
+    }
+    
 }
 
