@@ -33,20 +33,20 @@ body{
     display: flex;
     justify-content: left;
     flex-direction: column;
-    gap: 4.5rem;
+    gap: 4rem;
     padding: 20px;
 }
 
 .home-text h4,.home-text p, .home-text span{
-    font-size: 4vw;
-    font-weight: 600;
+    font-size: 5rem;
+    font-weight: 400;
     letter-spacing: 1rem;
     color: rgb(252, 250, 250);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .btn-home{
     display: block;
-    font-size: 12px;
+    font-size: 1rem;
     width: 24vw;
     padding: 18px;
     color: rgb(238, 232, 232);
@@ -58,16 +58,44 @@ body{
     letter-spacing: 6px;
 }
 .btn-home i{
-    font-size: 1.3vw;
+    font-size: 1rem;
 }
 .btn-home:hover{
     background-color: gray;
     transition: all ease-in-out 0.5s;
     color: #f1f1f1;
 }
-@media (min-width:320px) and (max-width:400px) {
+@media (min-width:320px) and (max-width:424px) {
+    .home-content{
+        padding: 0;
+    }
     .home-text{
-
+        margin-top: 1rem;
+    }
+    .home-text h4,.home-text p, .home-text span{
+        font-size:1.5rem;
+    }
+    .btn-home{
+        width: 65vw;
+        letter-spacing: 3px;
+    }
+    
+}
+@media (min-width:426px) and (max-width:1000px) {
+    .home-content{
+        padding: 0;
+    }
+    .home-text{
+        margin-top: 1rem;
+    }
+    .home-text h4,.home-text p, .home-text span{
+        font-size:3rem;
+    }
+    
+    .btn-home{
+        display: block;
+        width: 60vw;
+        letter-spacing: 3px;
     }
     
 }

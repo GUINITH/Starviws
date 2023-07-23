@@ -87,8 +87,8 @@
    }  
    .nav-bar, .nav-list, .nav-item{
       display: block;
-      margin:50px 0;
-      line-height: 30px;
+      gap: 3rem;
+      margin:  0;
    }
    .nav-bar, .nav-list, .nav-item, .nav-link{
       font-size:20px;
