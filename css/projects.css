@@ -5,13 +5,14 @@
 .project-container, .project-content{
     width: 100vw;
     height: 100vh;
-    padding: 50px;
+    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.project-container .project-text{
-    width: 50%;
+.project-container .project-text,
+.project-container .project-imgs{
+    width: 100%;
     padding: 0 30px;
 }
 .project-text h1{
@@ -21,28 +22,33 @@
  margin-bottom: 2rem;
 }
 .project-text p{
-    font-size: 1vw;
+    font-size: 1.3vw;
     text-align: left;
-    line-height: 2rem;
 }
 .project-imgs{
 display: flex;
 justify-content: center;
-align-items: center;
 flex-wrap: wrap;
-padding: 1rem;
+background-color: aqua;
 }
- #img-one img{
-width: 22vw;
-height: 67vh;
-}
- #img-two img, #img-tre img, #img-for img{
+
+#project-img img{
 width: 18vw;
-height: 22vh;
-padding: 0.1rem;
+height: 25vh;
+padding: 10px;
+background-color: blue;
 }
-@media (min-width:320px) and (max-width:499px) {
-    #Projetos{
-        display: none;
+@media screen and (max-width:1256px) {
+    .project-container, .project-content{
+        flex-wrap: wrap;
     }
+.project-text p{
+    font-size: 1.5vw;
+}
+    #project-img img{
+        width: 30vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+
 }
