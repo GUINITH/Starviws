@@ -38,7 +38,6 @@ label.lg-fim{
 }
 @media  screen and (max-width:1000px){
     footer{
-        margin-top: 10rem;
         height: 30vh;
     }
     .rd-fim{
@@ -47,16 +46,14 @@ label.lg-fim{
        text-align: center;
        flex-direction: column;
        gap: 1rem;
-       background-color: blue;
+
     }
     label.lg-fim{
-        background-color: aqua;
         font-size: 40px;
     }
     .rd-list,.footer-link{
-        background-color: aqua;
         gap: 1rem;
-        font-size: 1.5vw;
+        font-size: 2vw;
         padding: 10px;
     }
     
