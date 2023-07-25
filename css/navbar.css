@@ -54,7 +54,12 @@
    display: none;
  }
  
+
  @media (max-width:952px) {
+   label.logo img{
+      width: 60px;
+      height: 60px;
+   }
       label.checkbtn{
          font-size: 30px;
          padding-left: 50px;
@@ -73,7 +78,7 @@
    .nav-list{
       position: fixed;
       width: 100vw;
-      height: 100vh;
+      height: 100%;
       background-color: gray;
       top: 80px;
       left: -100%;
@@ -82,8 +87,8 @@
    }  
    .nav-bar, .nav-list, .nav-item{
       display: block;
-      margin:50px 0;
-      line-height: 30px;
+      gap: 3rem;
+      margin:  0;
    }
    .nav-bar, .nav-list, .nav-item, .nav-link{
       font-size:20px;

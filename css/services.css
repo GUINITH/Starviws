@@ -1,119 +1,143 @@
 
-#Serviços{
-    padding-top: 2rem;
-    width: 100vw;
-    height: 100vh;
-}
-.servicos-page{
+/* Estilos gerais para o contêiner de serviços */
+#Serviços {
+    padding-top: 10rem;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50rem;
 }
-.serv-container{
+/* Contêiner que envolve os itens do cards */
+.serv-container {
     width: 100vw;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 3rem;
+    height: 100vh;
 }
-.serv-container .serv-text,
-.serv-container .serv-img{
-    padding-top: 5rem;
-    width: 40%;
-    padding: 0 40px;
-}
-.serv-text{
-    text-align: justify;
-}
-.serv-text h1{
-    font-size: 1vw;
-    font-weight: 300;
-    letter-spacing: 10px;
-}
-.serv-text h2, .serv-plano h3,.serv-plano h1{
+.serv-title{
     font-size: 3vw;
-    font-weight: 300;
-    letter-spacing: 15px;
-    margin-bottom: 1rem;
-}
-.serv-text p{
-    font-size: 1.3vw;
-}
-.serv-img, .serv-img img{
-    width: 30vw;
-    height: 70vh;
-}
-.serv-plano{
-    padding-top: 5rem;
-    width: 100vw;
-    height: 80vh;
+    font-weight: 500;
     text-align: center;
+    margin-top:1rem ;
 }
- .plano-conteiner, .plano-itens{
+/* Estilos para os itens do cards*/
+.carts {
     width: 100vw;
-    height: 80vh;
+    height: 100vh; /* Alteramos a altura para se ajustar ao conteúdo */
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 3rem;
-    padding: 8rem;
+    column-gap: 5rem;
+    flex-wrap: wrap;
+    padding: 50px;
+    color: white;
 }
-.plano-prata, .plano-gold, .plano-platinum{
-    width: 500px;
-    height: 500px;
+.cart-item {
+    background-color: rgb(43, 43, 43);
+    width: 300px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cart-item:hover{
+    border: 2px solid gray;
+    transition: all 500ms ease-in-out;
+    transform: scale(1.05);
+}
+.conteudo{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     flex-direction: column;
-    background-color: rgba(182, 179, 179, 0.763);
-    line-height: 2rem;
-    padding: 0.5rem;
-    cursor: pointer;
+    gap: 1rem;
 }
-.plano-prata:hover, .plano-gold:hover, .plano-platinum:hover{
-    transition: all ease-in-out 800ms;
-    background-color: rgba(0, 0, 0, 0.659);
-    color: aliceblue;
+.conteudo i{
+    font-size: 3vw;
 }
-.pl-contrate{
-    margin-top: 0.5rem;
-    padding: 1vw;
-    font-size: 1vw;
-    border-radius: 15px;
-    letter-spacing: 5px;
-    background-color: rgba(240, 248, 255, 0.575);
-    cursor: pointer;
-    border: 1px solid black;
-    box-shadow: 2px 1px;
-}
-.pl-contrate:hover{
-    background-color: aliceblue;
-    transition: all ease-in-out 500ms;
-    transform: scale(1.02)
-}
-
-.plano-prata h4, .plano-gold h4, .plano-platinum h4{
-    font-size: 1.4vw;
-}
-.plano-prata strong, .plano-gold strong, .plano-platinum strong{
-    font-size: 2vw;
-}
-.plano-prata h6, .plano-gold h6, .plano-platinum h6{
-    font-size: 1.1vw;
-}
-.plano-prata span, .plano-gold span, .plano-platinum span{
-    font-size: 0.90vw;
-}
-.plano-prata p, .plano-gold p, .plano-platinum p{
+.cart-title {
     font-size: 1.5vw;
-    margin-bottom: 1rem;
+}
+.conteudo p{
+    font-size: 1vw;
+}
+@media screen and (max-width:399px) {
+    #Serviços{
+        margin-bottom: 3rem;
+    }
+    .carts {
+        column-gap: 1rem;
+        padding: 40px; 
+    }
+    .cart-item {
+        width: 100px; 
+        height: 100px;
+    }
+    .cart-item:hover{
+        transition: none;
+        transform: none;
+    }
+    .serv-title {
+        font-size: 4vw; /* Ajustamos o tamanho da fonte para telas menores */
+        margin-bottom: 1.5rem;
+    }
+}
+@media (min-width:400px) and (max-width: 416px) {
+    #Serviços{
+        margin-bottom: 3rem;
+    }
+    .carts {
+        column-gap: 2rem; 
+    }
+    .cart-item:hover{
+        transition: none;
+        transform: none;
+    }
+    .cart-item {
+        width: 110px; 
+        height: 110px;
+    }
+    .serv-title {
+        font-size: 3vw; /* Ajustamos o tamanho da fonte para telas menores */
+        margin-bottom: 1.5rem;
+    }
+}
+@media (min-width:417px) and (max-width: 900px) {
+    #Serviços{
+        margin-bottom: 3rem;
+    }
+    .cart-item:hover{
+        transition: none;
+        transform: none;
+    }
+    .cart-item:hover{
+        transition: none;
+        transform: none;
+    }
+    .carts {
+        column-gap: 1rem; 
+        padding: 10px;
+    }
+    .cart-item {
+        width: 160px; 
+        height: 160px;
+    }
+    .serv-title {
+        font-size: 3vw; /* Ajustamos o tamanho da fonte para telas menores */
+        margin-bottom: 1.5rem;
+    }
 }
 
-
-
+@media (min-width:901px) and (max-width: 1200px) {
+    .carts {
+       column-gap:0.5rem; 
+    }
+    .cart-item {
+        width: 250px; 
+        height: 200px;
+    }
+    .serv-title {
+        font-size: 3vw;
+        margin-bottom: 1.5rem; /* Ajustamos o tamanho da fonte para telas menores */
+    }
+}
