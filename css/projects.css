@@ -4,8 +4,8 @@
 }
 .project-container, .project-content{
     width: 100vw;
-    height: 100vh;
-    padding: 40px;
+    height: 100%;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,25 +22,25 @@
  margin-bottom: 2rem;
 }
 .project-text p{
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     text-align: left;
 }
 .project-imgs{
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-background-color: aqua;
 }
 
 #project-img img{
 width: 18vw;
 height: 25vh;
-padding: 10px;
-background-color: blue;
+padding: 5px;
 }
-@media screen and (max-width:1256px) {
+@media (min-width:900px) and (max-width:1256px) {
     .project-container, .project-content{
-        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
     }
 .project-text p{
     font-size: 1.5vw;
@@ -50,5 +50,22 @@ background-color: blue;
         height: 30vh;
         object-fit: cover;
     }
-
+}
+@media screen and (max-width:899px) {
+    #Projetos{
+        margin-top: 2rem;
+    }
+    .project-container, .project-content{
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0;
+    }
+.project-text p{
+    font-size: 2vw;
+}
+    #project-img img{
+        width: 30vw;
+        height: 25vh;
+        object-fit: cover;
+    }
 }
