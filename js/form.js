@@ -1,15 +1,16 @@
-document.getElementById('form').addEventListener('btn-form', (event)=>{
-    event.preventDefault();
+
+const form = document.getElementById('form');
+const nameInput = document.getElementById('name');
+const telefoneInput = document.getElementById('telefone');
+const emailInput = document.getElementById('Email');
+const assuntoInput = document.getElementById('Assunto');
+const mensagemInput = document.getElementById('Mensagem');
+
+form.addEventListener('submit', function (event) {
+    // Verifica se os campos obrigatórios estão preenchidos
+    if (!nameInput.value || !telefoneInput.value || !emailInput.value || !assuntoInput.value || !mensagemInput.value) {
+        event.preventDefault(); // Impede o envio do formulário se algum campo estiver vazio
+        alert('Por favor, preencha todos os campos obrigatórios.');
+    }
 });
 
-let nome = document.getElementById('name').value;
-let email = document.getElementById('Email').value;
-let telefone = document.getElementById('telefone').value;
-let assunto = document.getElementById('Assunto').value;
-let mensagem = document.getElementById('Mensagem').value;
-
-console.log('Nome:', nome);
-console.log('Email:', email);
-console.log('Telefone:', telefone);
-console.log('Assunto:', assunto);
-console.log('Nome:', mensagem);
