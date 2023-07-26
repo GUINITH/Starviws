@@ -96,11 +96,11 @@
 
 #btn-form {
     margin-top: 2rem;
-    padding: 1vw;
+    padding: 1rem;
     width: 100%;
     letter-spacing: 5px;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 1rem;
     background-color: #f1f1f1f1;
     cursor: pointer;
 }
@@ -127,41 +127,33 @@
         gap: 4rem;
         padding: 0px;
     }
-
     .contato-text {
         margin-top: 2rem;
-        height: 100%;
         width: 100%;
+        height: auto;
         padding: 10px;
         flex-wrap: wrap;
-        background-color: aqua;
         gap: 1rem;
     }
-
     .contato-text h1 {
-        font-size: 1.4vw;
+        font-size: 1.4rem;
         letter-spacing: 10px;
     }
-
     .contato-text h2 {
-        font-size: 2.5vw;
+        font-size: 2rem;
         letter-spacing: 1px;
     }
-
     .contato-text p {
-        font-size: 1.5vw;
+        font-size: 1rem;
     }
-
     .contato-icon-container {
         width: auto;
 
     }
-
     .contato-item {
         gap: 0.1rem;
 
     }
-
     .form-content {
         width: 80%;
         height: 100%;
@@ -199,7 +191,6 @@
     .contato-text {
         height: 100%;
         width: 100%;
-        background-color: aqua;
         gap: 1rem;
     }
     .contato-text h1 {
@@ -228,7 +219,7 @@
 
 }
 
-@media (min-width:349px) and (max-width:460px) {
+@media (min-width:341px) and (max-width:460px) {
     #Contato {
         display: flex;
         flex-direction: column;
@@ -247,12 +238,11 @@
     .contato-text {
         height: 100%;
         width: auto;
-        background-color: aqua;
         gap: 0.5rem;
         padding: 5px;
     }
     .contato-text h1 {
-        font-size: 1vw;
+        font-size: 1rem;
         letter-spacing: 10px;
     }
     .contato-text h2 {
@@ -274,7 +264,6 @@
     }
     .contato-icon-container {
         width: auto;
-        background-color: bisque;
     }
     .contato-item {
         gap: 0.1rem;
@@ -285,7 +274,7 @@
     }
 }
 
-@media (min-width:320px) and (max-width:348px) {
+@media (min-width:320px) and (max-width:340px) {
     #Contato {
         display: flex;
         flex-direction: column;
@@ -300,7 +289,9 @@
         gap: 1rem;
     }
     .contato-text {
-        width: 70%;
+        width: 100%;
+        height: auto;
+        padding: 20px;
         gap: 0.5rem;
     }
     .contato-text h1 {
@@ -312,26 +303,28 @@
         letter-spacing: 1px;
     }
     .contato-text p {
-        font-size: 1rem;
+        font-size: 0.90rem;
     }
     .icon-description h4{
         font-size: 0.9rem;
     }
     .icon-description p{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     .icon-description p{
         font-size: 0.5rem;
     }
     .contato-icon-container {
-        width: auto;
+        background-color: aqua;
+        width: 80%;
     }
     .contato-item {
         gap: 0.1rem;
     }
     .form-content{
-        width: 80%;
+        width: 85%;
         height: 60%;
     }
 
 }
+
