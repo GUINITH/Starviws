@@ -22,7 +22,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.home-container, .home-content{
+.home-container{
     padding: 3rem;
     width: 100vw;
     height: 90vh;
@@ -66,14 +66,17 @@ body{
     color: #f1f1f1;
 }
 @media (min-width:320px) and (max-width:424px) {
-    .home-content{
+    .home-container{
         padding: 0;
+        align-items: center;
+        text-align: center;
     }
     .home-text{
+        width: 90%;
         margin-top: 1rem;
     }
     .home-text h4,.home-text p, .home-text span{
-        font-size:8vw;
+        font-size:1.5rem;
     }
     .btn-home{
         font-size: 2vw;
@@ -82,9 +85,10 @@ body{
     }
     
 }
-@media (min-width:426px) and (max-width:1000px) {
-    .home-content{
-        padding: 0;
+@media (min-width:426px) and (max-width:1024px) {
+    .home-container{
+        align-items: center;
+        text-align: center;
     }
     .home-text{
         margin-top: 1rem;
