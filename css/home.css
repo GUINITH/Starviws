@@ -69,7 +69,7 @@ body{
     transition: all ease-in-out 0.5s;
     color: #f1f1f1;
 }
-@media (min-width:320px) and (max-width:424px) {
+@media (min-width:320px) and (max-width:420px) {
     .home-container{
         padding: 0;
         align-items: center;
@@ -84,12 +84,12 @@ body{
     }
     .btn-home{
         font-size: 2vw;
-        width: 40%;
+        width: 60%;
         letter-spacing: 3px;
     }
     
 }
-@media (min-width:426px) and (max-width:1024px) {
+@media (min-width:421px) and (max-width:1024px) {
     .home-container{
         align-items: center;
         text-align: center;
@@ -104,7 +104,7 @@ body{
     .btn-home{
         font-size: 2vw;
         display: block;
-        width: 40%;
+        width: 60%;
         letter-spacing: 3px;
     }
     
