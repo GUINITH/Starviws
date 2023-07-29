@@ -48,20 +48,22 @@ body{
 }
 .btn-home{
     display: block;
-    font-size: 1rem;
-    width: 24vw;
+    text-align: center;
+    width: 30%;
     padding: 18px;
-    color: rgb(238, 232, 232);
     background-color: transparent;
     border-radius: 25px;
     border: 1px solid gray;
     box-shadow: 0 2px 2px gray;
     cursor: pointer;
     letter-spacing: 6px;
+    font-style: normal;
 }
-.btn-home i{
+#icon-home{
+    color: white;
     font-size: 1rem;
 }
+
 .btn-home:hover{
     background-color: gray;
     transition: all ease-in-out 0.5s;
