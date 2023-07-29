@@ -67,13 +67,9 @@
       .nav-bar, .nav-list, .nav-item, .nav-link{
          font-size: 16px;
       }
- }
-
- @media(max-width:920px){
    .checkbtn{
       display: block;
       color: black;
-
    }
    .nav-list{
       position: fixed;

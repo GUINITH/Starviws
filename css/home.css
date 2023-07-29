@@ -30,6 +30,8 @@ body{
     justify-content: left;
 }
 .home-text{
+    width: 100%;
+    margin-top: 5rem;
     display: flex;
     justify-content: left;
     flex-direction: column;
