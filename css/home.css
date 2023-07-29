@@ -84,7 +84,7 @@ body{
     }
     .btn-home{
         font-size: 2vw;
-        width: 65vw;
+        width: 40%;
         letter-spacing: 3px;
     }
     
@@ -104,7 +104,7 @@ body{
     .btn-home{
         font-size: 2vw;
         display: block;
-        width: 60vw;
+        width: 40%;
         letter-spacing: 3px;
     }
     
