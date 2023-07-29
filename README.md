@@ -1,7 +1,7 @@
 # Starviws
 # Starwis - Fotografia, Vídeos e Design Gráfico
 
-![Starwis Logo](/Img/starv.png.pngS)
+![Starwis Logo](/Img/starv.png.png)
 
 Bem-vindo(a) ao repositório oficial da Starwis no Github! Aqui você encontrará uma amostra dos nossos trabalhos excepcionais em fotografia, vídeos e design gráfico. Somos apaixonados por arte visual e buscamos contar histórias únicas através de nossos projetos.
 

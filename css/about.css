@@ -54,6 +54,7 @@
     padding: 15px;
     object-fit: cover;
 }
+
 @media (min-width:761px)and (max-width:800px) {
     .about-container{
         padding: 50px;
