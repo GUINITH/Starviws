@@ -58,6 +58,8 @@ body{
     cursor: pointer;
     letter-spacing: 6px;
     font-style: normal;
+      backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 #icon-home{
     color: white;
