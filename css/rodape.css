@@ -1,8 +1,8 @@
 footer{
-    background-color: white;
+    background-color: #000000bf;
     width: 100vw;
-    height: 10vh;
-    color: black;
+    height: 20vh;
+    color: white;
     display: flex;
     justify-content: center;
     position: relative;
@@ -31,7 +31,7 @@ label.lg-fim{
 }
 .rd-item1 a, .rd-item2 a{
     cursor: pointer;
-    color: black;
+    color: white;
 }
 .rd-item1 a:hover, .rd-item2 a:hover{
     color: white;
