@@ -16,7 +16,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: url(/img/starviws.png) no-repeat top center/cover;
+    background: url(./img/starviws.png) no-repeat top center/cover;
 }
 .home-container{
     padding: 3rem;
